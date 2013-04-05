@@ -1,6 +1,7 @@
 The following scripts are contained in this repository
 
-LoadBalanceByDevice.sh ( Tested on ubuntu 12.11 with multiple bfl singles, cgminer 12.11.4, and bfgminer 3.0 alpha2
+LoadBalanceByDevice.sh - Tested on ubuntu 12.11 with multiple bfl singles, cgminer 12.11.4, and bfgminer 3.0 alpha2
+	
 	--Choosing load balance type --
 	This script allows the user to setup an array of devices and pools, and runs an instance of cgminer or bfgminer for each device. Each device will have a seperate pool in the array as its Master pool. 
 	All other pools left in the array will be set to backup on failover. To use one instance for each device, set instancePerDevice to 1
